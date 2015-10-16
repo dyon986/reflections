@@ -4,3 +4,23 @@ A hidden git folder is created. To allow Git commands the ability to operate on 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is the intermediary space where files are placed in the transition from directory to commit.
 An additional checkpoint to make sure everything is okay.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+The git status command will help me to keep tabs on the files that are up to be comitted and can act as a buffer to help
+prevent the hasty grouping of files.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When adding new/experimental features or distinct versions of a file.  It would keep seperation between files 
+so that one file did not significantly effect another.
+
+5. How do the diagrams help you visualize the branch structure?
+By plotting out the topography of commits and branches, which helps make the navigation of Git easier.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A new branch tip is created with parent from the two newly merged branch. To show the parents of the tip and visually 
+show convergence.
+
+7. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+pros - time saving, con - when conflicts arise  manually time consuming, human error involved
+
+
